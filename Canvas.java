@@ -8,10 +8,11 @@ import java.util.*;
  * This is a modification of the general purpose Canvas, specially made for
  * the BlueJ "shapes" example. 
  *
- * @author: Bruce Quig
- * @author: Michael Kšlling (mik)
+ *This class has been updated with two new colors
  *
- * @version 2016.02.29
+ * @author: Frederick Lamptey
+ *
+ * @version 2022.09.09
  */
 public class Canvas
 {
@@ -143,9 +144,11 @@ public class Canvas
         else if(colorString.equals("white")) {
             graphic.setColor(Color.white);
         }
+        //adding orange to the color options
         else if(colorString.equals("orange")) {
             graphic.setColor(new Color(250, 99, 4));
         }
+        //adding pink to the color options
         else if(colorString.equals("pink")) {
             graphic.setColor(new Color(255, 192, 203));
         }
